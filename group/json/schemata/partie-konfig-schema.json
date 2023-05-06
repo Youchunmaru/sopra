@@ -1,0 +1,379 @@
+{
+	"$schema": "http://json-schema.org/draft-04/schema#",
+	"type": "object",
+	"properties": {
+		"noble": {
+			"type": "object",
+			"properties": {
+				"maxHP": {
+					"title": "maxHP",
+					"type": "number",
+					"examples": [20],
+					"default": 0,
+					"minimum": 0,
+					"description": "Initialer Wert der Heilungspunkte (HP)."
+				},
+				"maxMP": {
+					"title": "maxMP",
+					"type": "integer",
+					"examples": [21],
+					"default": 0,
+					"minimum": 0,
+					"description": "Initialer Wert der Bewegungspunkte (MP)."
+				},
+				"maxAP": {
+					"title": "maxAP",
+					"type": "integer",
+					"examples": [22],
+					"default": 0,
+					"minimum": 0,
+					"description": "Initialer Wert der Aktionspunkte (AP)."
+				},
+				"damage": {
+					"title": "damage",
+					"type": "number",
+					"examples": [4],
+					"default": 0,
+					"minimum": 0,
+					"description": "Hoehe des Schadens, den der Charaktertyp verursacht."
+				},
+				"inventorySize": {
+					"title": "inventorySize",
+					"type": "integer",
+					"examples": [8],
+					"default": 0,
+					"minimum": 0,
+					"description": "Groesse des Inventars des Charaktertypen."
+				},
+				"healingHP": {
+					"title": "healingHP",
+					"type": "number",
+					"examples": [6],
+					"default": 0,
+					"minimum": 0,
+					"description": "Anzahl der Punkte, die auf den Gesundheitspunkten (HP) bei einer Heilung hinzugefuegt werden."
+				}
+			},
+			"description": "Enthaelt alle Eigenschaften des Charaktertypen Noble",
+			"required": [
+				"maxHP",
+				"maxMP",
+				"maxAP",
+				"damage",
+				"inventorySize",
+				"healingHP"
+			]
+		},
+		"mentat": {
+			"type": "object",
+			"properties": {
+				"maxHP": {
+					"title": "maxHP",
+					"type": "number",
+					"examples": [20],
+					"default": 0,
+					"minimum": 0,
+					"description": "Initialer Wert der Heilungspunkte (HP)."
+				},
+				"maxMP": {
+					"title": "maxMP",
+					"type": "integer",
+					"examples": [21],
+					"default": 0,
+					"minimum": 0,
+					"description": "Initialer Wert der Bewegungspunkte (MP)."
+				},
+				"maxAP": {
+					"title": "maxAP",
+					"type": "integer",
+					"examples": [22],
+					"default": 0,
+					"minimum": 0,
+					"description": "Initialer Wert der Aktionspunkte (AP)."
+				},
+				"damage": {
+					"title": "damage",
+					"type": "number",
+					"examples": [4],
+					"default": 0,
+					"minimum": 0,
+					"description": "Hoehe des Schadens, den der Charaktertyp verursacht."
+				},
+				"inventorySize": {
+					"title": "inventorySize",
+					"type": "integer",
+					"examples": [8],
+					"default": 0,
+					"minimum": 0,
+					"description": "Groesse des Inventars des Charaktertypen."
+				},
+				"healingHP": {
+					"title": "healingHP",
+					"type": "number",
+					"examples": [6],
+					"default": 0,
+					"minimum": 0,
+					"description": "Anzahl der Punkte, die auf den Gesundheitspunkten (HP) bei einer Heilung hinzugefuegt werden."
+				}
+			},
+			"description": "Enthaelt alle Eigenschaften des Charaktertypen Mentat",
+			"required": [
+				"maxHP",
+				"maxMP",
+				"maxAP",
+				"damage",
+				"inventorySize",
+				"healingHP"
+			]
+		},
+		"beneGesserit": {
+			"type": "object",
+			"properties": {
+				"maxHP": {
+					"title": "maxHP",
+					"type": "number",
+					"examples": [20],
+					"default": 0,
+					"minimum": 0,
+					"description": "Initialer Wert der Heilungspunkte (HP)."
+				},
+				"maxMP": {
+					"title": "maxMP",
+					"type": "integer",
+					"examples": [21],
+					"default": 0,
+					"minimum": 0,
+					"description": "Initialer Wert der Bewegungspunkte (MP)."
+				},
+				"maxAP": {
+					"title": "maxAP",
+					"type": "integer",
+					"examples": [22],
+					"default": 0,
+					"minimum": 0,
+					"description": "Initialer Wert der Aktionspunkte (AP)."
+				},
+				"damage": {
+					"title": "damage",
+					"type": "number",
+					"examples": [4],
+					"default": 0,
+					"minimum": 0,
+					"description": "Hoehe des Schadens, den der Charaktertyp verursacht."
+				},
+				"inventorySize": {
+					"title": "inventorySize",
+					"type": "integer",
+					"examples": [8],
+					"default": 0,
+					"minimum": 0,
+					"description": "Groesse des Inventars des Charaktertypen."
+				},
+				"healingHP": {
+					"title": "healingHP",
+					"type": "number",
+					"examples": [6],
+					"default": 0,
+					"minimum": 0,
+					"description": "Anzahl der Punkte, die auf den Gesundheitspunkten (HP) bei einer Heilung hinzugefuegt werden."
+				}
+			},
+			"description": "Enthaelt alle Eigenschaften des Charaktertypen BeneGesserit",
+			"required": [
+				"maxHP",
+				"maxMP",
+				"maxAP",
+				"damage",
+				"inventorySize",
+				"healingHP"
+			]
+		},
+		"fighter": {
+			"type": "object",
+			"properties": {
+				"maxHP": {
+					"title": "maxHP",
+					"type": "number",
+					"examples": [20],
+					"default": 0,
+					"minimum": 0,
+					"description": "Initialer Wert der Heilungspunkte (HP)."
+				},
+				"maxMP": {
+					"title": "maxMP",
+					"type": "integer",
+					"examples": [21],
+					"default": 0,
+					"minimum": 0,
+					"description": "Initialer Wert der Bewegungspunkte (MP)."
+				},
+				"maxAP": {
+					"title": "maxAP",
+					"type": "integer",
+					"examples": [22],
+					"default": 0,
+					"minimum": 0,
+					"description": "Initialer Wert der Aktionspunkte (AP)."
+				},
+				"damage": {
+					"title": "damage",
+					"type": "number",
+					"examples": [4],
+					"default": 0,
+					"minimum": 0,
+					"description": "Hoehe des Schadens, den der Charaktertyp verursacht."
+				},
+				"inventorySize": {
+					"title": "inventorySize",
+					"type": "integer",
+					"examples": [8],
+					"default": 0,
+					"minimum": 0,
+					"description": "Groesse des Inventars des Charaktertypen."
+				},
+				"healingHP": {
+					"title": "healingHP",
+					"type": "number",
+					"examples": [6],
+					"default": 0,
+					"minimum": 0,
+					"description": "Anzahl der Punkte, die auf den Gesundheitspunkten (HP) bei einer Heilung hinzugefuegt werden."
+				}
+			},
+			"description": "Enthaelt alle Eigenschaften des Charaktertypen Fighter",
+			"required": [
+				"maxHP",
+				"maxMP",
+				"maxAP",
+				"damage",
+				"inventorySize",
+				"healingHP"
+			]
+		},
+		"numbOfRounds": {
+			"title": "numbOfRounds",
+			"type": "integer",
+			"examples": [10],
+			"default": 0,
+			"minimum": 1,
+			"description": "Die Anzahl der Runden bis der Ueberlaengenmechnismus greift."
+		},
+		"actionTimeUserClient": {
+			"title": "actionTimeUserClient",
+			"type": "integer",
+			"examples": [5000],
+			"default": 0,
+			"minimum": 0,
+			"description": "Maximale Zeit für den Benutzer-Client, um Aktionen eines Charakters durchzufuehren in ms."
+		},
+		"actionTimeAiClient": {
+			"title": "actionTimeAiClient",
+			"type": "integer",
+			"examples": [500],
+			"default": 0,
+			"minimum": 0,
+			"description": "Maximale Zeit für den KI-Client, um Aktionen eines Charakters durchzufuehren in ms."
+		},
+		"highGroundBonusRatio": {
+			"title": "highGroundBonusRatio",
+			"type": "number",
+			"examples": [0.5],
+			"default": 0.0,
+			"minimum": 0.0,
+			"description": "Quotient, der den Vorteil eines hoch gelegenen Feldes im Vergleich zu einem niedrig gelegenen Feld festlegt."
+		},
+		"lowerGroundMalusRatio": {
+			"title": "lowerGroundMalusRatio",
+			"type": "number",
+			"examples": [0.5],
+			"default": 0.0,
+			"minimum": 0.0,
+			"description": "Quotient, der den Nachteil eines niedrig gelegenen Feldes im Vergleich zu einem hoch gelegenen Feld festlegt."
+		},
+		"kanlySuccessProbability": {
+			"title": "kanlySuccessProbability",
+			"type": "number",
+			"examples": [0.5],
+			"default": 0.0,
+			"minimum": 0.0,
+			"maximum": 1.0,
+			"description": "Wahrscheinlichkeit, dass der Kanly Angriff erfolgreich ist."
+		},
+		"spiceMinimum": {
+			"title": "spiceMinimum",
+			"type": "integer",
+			"examples": [10],
+			"default": 0,
+			"minimum": 0,
+			"description": "Minimaler Spice Betrag, bevor ein Spice Blow stattfindet."
+		},
+		"cellularAutomaton": {
+			"title": "cellularAutomaton",
+			"type": "string",
+			"default": "",
+			"examples": ["B2/S3"],
+			"pattern": "B[0-8]*/S[0-8]*",
+			"description": "String mit der Vorschrift, wie die Duenen wandern. (https://de.wikipedia.org/wiki/Conways_Spiel_des_Lebens)"
+		},
+		"sandWormSpeed": {
+			"title": "sandWormSpeed",
+			"type": "integer",
+			"examples": [10],
+			"default": 0,
+			"minimum": 0,
+			"description": "Anzahl der Felder, um die sich der Sandwurm pro Runde bewegen kann."
+		},
+		"sandWormSpawnDistance": {
+			"title": "sandWormSpawnDistance",
+			"type": "integer",
+			"examples": [10],
+			"default": 2,
+			"minimum": 2,
+			"description": "Sandwurm Auftauch Entfernung."
+		},
+		"cloneProbability": {
+			"title": "cloneProbability",
+			"type": "number",
+			"examples": [0.5],
+			"default": 0.0,
+			"minimum": 0.0,
+			"maximum": 1.0,
+			"description": "Wahrscheinlichkeit, dass ein Charakter in der Klon Phase geklont wird."
+		},
+		"minPauseTime": {
+			"title": "minPauseTime",
+			"type": "integer",
+			"examples": [1000],
+			"default": 0,
+			"minimum": 0,
+			"description": "Zeit, die eine Pause mindestens dauert, bevor ein Spieler sie beenden kann in ms."
+		},
+		"maxStrikes": {
+			"title": "maxStrikes",
+			"type": "integer",
+			"examples": [10],
+			"default": 0,
+			"minimum": 0,
+			"description": "Die maximale Anzahl an Strikes, die Clients für Verstöße bekommen können."
+		}
+	},
+	"required": [
+		"noble",
+		"mentat",
+		"beneGesserit",
+		"fighter",
+		"numbOfRounds",
+		"actionTimeUserClient",
+		"actionTimeAiClient",
+		"highGroundBonusRatio",
+		"lowerGroundMalusRatio",
+		"kanlySuccessProbability",
+		"spiceMinimum",
+		"cellularAutomaton",
+		"sandWormSpeed",
+		"sandWormSpawnDistance",
+		"cloneProbability",
+		"minPauseTime",
+		"maxStrikes"
+	]
+}

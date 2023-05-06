@@ -1,0 +1,37 @@
+{
+    "type": "object",
+    "title": "The Scenarioconfiguration",
+    "description": "This is the json schema of the scenario configuration",
+    "required": ["scenario"],
+    "maxProperties": 1,
+    "additionalProperties": true,
+    "properties": {
+        "scenario": {
+            "$id": "#/properties/scenario",
+            "title": "The scenario scheme",
+            "description": "Is a two dimensional array of fields",
+            "type": "array",
+            "minItems": 4,
+            "items": {
+                "$id": "#/properties/scenario/items",
+                "title": "The rows of the gamefield",
+                "description": "Contains a onedimensional array for each row",
+                "type": "array",
+                "minItems": 4,
+                "items": {
+                    "$id": "#/properties/scenario/items/items",
+                    "type": "string",
+                    "title": "The columns of the gamefield",
+                    "description": "every column in this row descripes the type of afield",
+                    "enum": [
+                        "CITY",
+                        "MOUNTAINS",
+                        "PLATEAU",
+                        "DUNE",
+                        "FLAT_SAND"
+                    ]
+                }
+            }
+        }
+    }
+}

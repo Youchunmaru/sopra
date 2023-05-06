@@ -1,0 +1,18 @@
+package enums;
+
+public enum GameHandlerType {
+    ATTACK,
+    COLLECT,
+    KANLY,
+    FAMILY_ATOMICS,
+    SPICE_HOARDING,
+    VOICE,
+    SWORDSPIN,
+    MOVEMENT_REQUEST,
+    TRANSFER_REQUEST,
+    END_TURN_REQUEST,
+    HOUSE_REQUEST,
+    REQUEST_GAMESTATE,
+    GAMESTATE_REQUEST,
+    HELI_REQUEST
+}
