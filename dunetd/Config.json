@@ -1,0 +1,59 @@
+{
+  "name": "test",
+  "height": 9,
+  "width": 16,
+  "spice": 3000,
+  "live": 5000,
+  "start": {
+    "x": 0,
+    "y": 0
+  },
+  "end": {
+    "x": 15,
+    "y": 8
+  },
+  "infantry": {
+    "live": 500.0,
+    "speed": 100.0,
+    "spice": 200.0
+  },
+  "harvester": {
+    "live": 2100.0,
+    "speed": 25.0,
+    "spice": 800.0
+  },
+  "boss": {
+    "live": 4200.0,
+    "speed": 75.0,
+    "spice": 4000.0
+  },
+  "gunTower": {
+    "dmg": 100.0,
+    "speed": 25.0,
+    "spice": 1000.0
+  },
+  "bombTower": {
+    "dmg": 400.0,
+    "speed": 100.0,
+    "spice": 2000.0
+  },
+  "sonicTower": {
+    "dmg": 0.0,
+    "speed": 0.0,
+    "spice": 4000.0
+  },
+  "shaiHulud": {
+   "dmg": 999999.0,
+    "speed": 100.0,
+    "spice": 0.0
+  },
+  "waves": [
+    "iiihi",
+    "hihihi",
+    "ibiii",
+    "iihiihihhihh",
+    "iiibiiibiiii",
+    "ihihihbihihbihb",
+    "bbbbbbb"
+  ]
+}
